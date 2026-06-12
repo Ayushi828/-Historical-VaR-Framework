@@ -1,0 +1,10 @@
+tickers = ["HDFCBANK.NS",
+    "ICICIBANK.NS",
+    "BAJFINANCE.NS",
+    "SUNDARMFIN.NS",
+    "INFY.NS",
+    "WIPRO.NS",
+    "BEL.NS",
+    "BEML.NS",
+    "NTPC.NS",
+    "ONGC.NS"]
