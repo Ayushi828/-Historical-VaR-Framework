@@ -1,8 +1,10 @@
+
 import pandas as pd
 import yfinance as yf
 from ticker_list import tickers
 
-def adj_close_price(tickers, start_date, end_date):
+
+def dwn_adj_close_price(tickers, start_date, end_date):
     adj_close_price = pd.DataFrame()
 
     for tick in tickers:
@@ -13,6 +15,7 @@ def adj_close_price(tickers, start_date, end_date):
         else:
             print("Data is unnavailable")
 
-    print(adj_close_price)
+    #print("\n","-"*10, "\t ADJACENT CLOSE PRICE \t", "-"*10)                  remove "#" if necessary to see data
+    #print(adj_close_price)                                                    remove "#" if necessary to see data
     
     return adj_close_price
