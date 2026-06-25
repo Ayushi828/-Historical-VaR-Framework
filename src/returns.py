@@ -1,4 +1,4 @@
-from prices import (adj_close_price)
+
 import numpy as np
 
 
@@ -7,3 +7,6 @@ def cal_logs(adj_close_price):
   log_returns = log_returns.dropna()
 
   return log_returns
+
+
+
