@@ -125,7 +125,7 @@ Breach Rate is 2.36% of total observation in given dataset.
 
 ### Plot - Distribution of Portfolio Returns (Histogram) and VaR 
 
-![Histogram of Returns](hist.png)
+![Histogram of Returns](notebook/hist.png)
 
 The histogram shows the full distribution of x-day portfolio returns. The  dashed line marks the VaR threshold — returns to the left of this line represent the tail risk.
 
