@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name = "git_var_his", version = " 0.1", packages = find_packages())
+setup(name = "Historical-VaR-Framework", version = " 0.1", packages = find_packages())
 
 
 
