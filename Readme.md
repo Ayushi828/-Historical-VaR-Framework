@@ -49,7 +49,7 @@ A well-calibrated model at 95% confidence should have a breach rate close to **5
 
 ---
 
-## 🛠️ Tools & Libraries Used
+## Tools & Libraries Used
 
 | Tool | Purpose |
 |---|---|
@@ -63,7 +63,7 @@ A well-calibrated model at 95% confidence should have a breach rate close to **5
 ---
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -86,7 +86,7 @@ Open `notebooks/main.ipynb` in Jupyter or VS Code and run all cells.
 
 ---
 
-## 🖥️ User Interactive Feature
+## User Interactive Feature
 
 One of the highlights of this project is its **interactive input system**. When you run `main.ipynb`, the programme prompts you to enter:
 
@@ -104,7 +104,7 @@ This means the same codebase can calculate VaR for any portfolio size, any time 
 
 ---
 
-## 📊 Visualisations 
+## Visualisations 
 
 ### VaR Result (Output)
 ```
@@ -132,7 +132,7 @@ The histogram shows the full distribution of x-day portfolio returns. The  dashe
 ---
 
 
-## 📦 Requirements
+##  Requirements
 
 ```
 yfinance
@@ -152,7 +152,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Portfolio is **equally weighted** by default. To use custom weights, modify the `weight` array in `main.ipynb`.
 - Tickers are NSE-listed Indian stocks, to change the portfolio, edit `data/ticker_list.py`.
@@ -160,6 +160,6 @@ pip install -r requirements.txt
 
 ---
 
-## 👤 Author
+##  Author
 
 **Ayushi**
